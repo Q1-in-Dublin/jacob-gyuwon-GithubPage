@@ -1,6 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jacob Jung</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,450;9..144,560;9..144,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,450;6..72,560;6..72,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
   :root{
     --bg:#eef1f0;
@@ -70,7 +75,7 @@
   }
   img{max-width:100%;}
   a{color:inherit;}
-  h1,h2,h3{font-family:'Fraunces', Georgia, serif; margin:0; text-wrap:balance;}
+  h1,h2,h3{font-family:'Newsreader', Georgia, serif; margin:0; text-wrap:balance;}
   p{margin:0;}
   .wrap{
     max-width:1080px;
@@ -225,7 +230,7 @@
     box-shadow:var(--shadow);
   }
   .avatar span{
-    font-family:'Fraunces', serif;
+    font-family:'Newsreader', serif;
     font-weight:650;
     font-size:clamp(2.2rem, 2rem + 2vw, 3.4rem);
     color:var(--accent-ink);
@@ -286,7 +291,7 @@
     gap:6px;
   }
   .stat-num{
-    font-family:'Fraunces', serif;
+    font-family:'Newsreader', serif;
     font-weight:650;
     font-size:clamp(2.2rem, 1.6rem + 2vw, 3rem);
     font-variant-numeric:tabular-nums;
@@ -409,7 +414,7 @@
     background:var(--accent);
   }
   .path-title{
-    font-family:'Fraunces', serif;
+    font-family:'Newsreader', serif;
     font-weight:600;
     font-size:1.1rem;
     margin-bottom:6px;
@@ -516,6 +521,8 @@
   }
 </style>
 
+</head>
+<body>
 <header class="nav">
   <div class="wrap nav-inner">
     <div class="wordmark">JACOB<span>·</span>JUNG</div>
@@ -801,6 +808,7 @@
   </div>
 </footer>
 
+
 <script>
 (function(){
   var nums = document.querySelectorAll('.stat-num');
@@ -835,3 +843,6 @@
   nums.forEach(function(el){ io.observe(el); });
 })();
 </script>
+
+</body>
+</html>
