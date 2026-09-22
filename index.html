@@ -543,6 +543,7 @@
 
 </head>
 <body>
+
 <header class="nav">
   <div class="wrap nav-inner">
     <div class="wordmark">JACOB<span>·</span>JUNG</div>
@@ -560,13 +561,13 @@
       <div>
         <div class="eyebrow">Backend Engineer · Dublin, Ireland</div>
         <h1>I move data by day.<br>I ship <em>small apps</em> by night.</h1>
-        <p class="lede">I'm Jacob, a Backend Engineer and Python Developer. Most of my week goes into pipelines that need to run faster and queries that need to run leaner. The rest goes into small tools I build because I think they should exist, efficient or not.</p>
+        <p class="lede">I'm Jacob, a Backend Engineer and Python Developer, currently pulling those pipelines toward AI. Most of my week goes into pipelines that need to run faster and queries that need to run leaner. The rest goes into small tools I build because I think they should exist, efficient or not.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="https://github.com/Q1-in-Dublin" target="_blank" rel="noopener">View GitHub →</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/jacobgyuwonjung/" target="_blank" rel="noopener">LinkedIn</a>
           <a class="btn btn-ghost" href="mailto:jacob.jung.ireland@gmail.com" target="_blank" rel="noopener">Say hello</a>
         </div>
-        <div class="status-chip"><span class="status-dot"></span> Currently: tuning pipelines at work, polishing MindOnion after hours</div>
+        <div class="status-chip"><span class="status-dot"></span> Currently: automating pipelines with Codex at work, building AI apps and integrations after hours</div>
       </div>
       <div class="hero-visual">
         <svg class="rails" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
@@ -612,7 +613,7 @@
           <div class="stat-sub">processed in production</div>
         </div>
       </div>
-      <p class="stats-footnote">Day to day, that means building and maintaining the ETL pipelines that move regulatory and custodian data through Utmost Group's investment platform.</p>
+      <p class="stats-footnote">Day to day, that means building and maintaining the ETL pipelines that move regulatory and custodian data through an investment data platform.</p>
       <div class="duties-grid">
         <div class="duty">
           <div class="duty-label">Pipelines &amp; data</div>
@@ -628,7 +629,7 @@
         </div>
         <div class="duty">
           <div class="duty-label">Reporting &amp; tooling</div>
-          <p class="duty-text">I build Power BI reports for executive stakeholders and use AI code-generation tooling in production, saving the team roughly four hours a week on manual conversion work.</p>
+          <p class="duty-text">I build Solvency II regulatory reports and use AI code-generation tooling in production, saving the team roughly four hours a week on manual conversion work.</p>
         </div>
       </div>
     </div>
@@ -641,20 +642,20 @@
       <div class="section-head">
         <div class="eyebrow">Technical projects</div>
         <h2>The projects with a job description in mind</h2>
-        <p>The technical side of things: pipelines, backends, and one very over-engineered Slack bot.</p>
+        <p>The technical side of things: pipelines, backends, and the RAG system I actually want to be known for.</p>
       </div>
       <div class="project-grid">
-        <div class="card">
-          <div class="pill-row"><span class="pill">Python</span><span class="pill">Airflow</span><span class="pill">dbt</span></div>
-          <h3>Financial Data Platform</h3>
-          <p class="desc">An ETL pipeline built to survive real production habits: Airflow handles scheduling, dbt handles transformation, and GitHub Actions blocks any pull request that breaks a test. Processes 5M+ synthetic financial transactions end to end.</p>
-          <a class="card-link" href="https://github.com/Q1-in-Dublin/airflow-financial-data-pipeline" target="_blank" rel="noopener">View the repo →</a>
-        </div>
         <div class="card">
           <div class="pill-row"><span class="pill">Python</span><span class="pill">FastAPI</span><span class="pill">LangGraph</span></div>
           <h3>Async RAG Orchestration Backend</h3>
           <p class="desc">A Slack bot backend that separates the fast API response from the slow LLM call, using Redis Streams and a LangGraph-orchestrated RAG workflow. Built and load-tested solo against a local Docker stack.</p>
           <a class="card-link" href="https://github.com/Q1-in-Dublin/event-driven-async-rag-ai-orchestration-backend" target="_blank" rel="noopener">View the repo →</a>
+        </div>
+        <div class="card">
+          <div class="pill-row"><span class="pill">Python</span><span class="pill">Airflow</span><span class="pill">dbt</span></div>
+          <h3>Financial Data Platform</h3>
+          <p class="desc">An ETL pipeline built to survive real production habits: Airflow handles scheduling, dbt handles transformation, and GitHub Actions blocks any pull request that breaks a test. Processes 5M+ synthetic financial transactions end to end.</p>
+          <a class="card-link" href="https://github.com/Q1-in-Dublin/airflow-financial-data-pipeline" target="_blank" rel="noopener">View the repo →</a>
         </div>
         <div class="card">
           <div class="pill-row"><span class="pill">Java</span><span class="pill">Spring Boot</span><span class="pill">In progress</span></div>
@@ -829,7 +830,6 @@
     </div>
   </div>
 </footer>
-
 
 <script>
 (function(){
